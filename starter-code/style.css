@@ -10,6 +10,10 @@ h1, h2, p {
 nav {
 	background-color: #808080;
 }
+img {
+	height: 200px;
+	width: 150px;
+}
 
 a {
 	background-color: #ffbf00;
