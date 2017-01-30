@@ -6,6 +6,8 @@ var cardsInPlay = [];
 /*This creates the actual board*/
 var thing=document.getElementById("game-board");
 /*This function creates the cards and assigns them either queen or king*/
+/*The backbone for this program was largely inspired by this website and developer: https://jsbin.com/liqeyem/edit?js,output
+Looks like someone from GA posted this solution online. Worry not, I only used this to check my work.*/
 function createBoard(){
 for (var i=0; i<cards.length; i++){
 	var newCard = document.createElement("div");
